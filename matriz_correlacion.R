@@ -8,7 +8,7 @@ library(tidyverse)
 library(readxl)
 library(ggcorrplot)
 
-datos <- read_excel("datos_regresion.xlsx")
+datos <- read_excel("datos_correlacion.xlsx")
 
 glimpse(datos)
 
